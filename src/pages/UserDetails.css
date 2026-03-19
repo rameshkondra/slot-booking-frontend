@@ -1,0 +1,27 @@
+.user-details-container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.form-container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.form-container input {
+    height: 30px;
+    border: 2px solid #ddd;
+    outline: none;
+    text-indent: 10px;
+    border-radius: 6px;
+}
+
+.form-container button {
+    height: 30px;
+    border: 2px solid #ddd;
+    border-radius: 6px;
+    cursor: pointer;
+
+    
+}

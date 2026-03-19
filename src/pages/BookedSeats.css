@@ -1,0 +1,26 @@
+.booked-seats-container {
+      min-width:150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+table,th,td {
+  
+    border: 1px solid #ddd;
+    border-collapse: collapse;
+    background-color: aquamarine;
+    overflow: auto;
+}
+th {
+    background-color: rgb(4, 110, 4);
+    color: white;
+}
+
+td {
+    padding: 10px;
+    text-align: center;
+}
+

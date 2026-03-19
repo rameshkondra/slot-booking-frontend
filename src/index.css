@@ -1,0 +1,14 @@
+.home-container {
+  display: flex;
+  gap: 20px;
+}
+
+.home-container button {
+  height: 90px;
+  width: 150px;
+  background: #f8f4f4;
+  border: 2px solid rgb(234, 202, 202);
+  padding: 10px;
+  border-radius: 6px;
+  cursor: pointer;
+}
