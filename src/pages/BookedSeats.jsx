@@ -10,7 +10,7 @@ const BookedSeats = () => {
     useEffect(()=>{
        const getBookedData =async()=>{
 
-        const res = await axios('http://localhost:5000/api/bookings');
+        const res = await axios('https://slot-booking-backend-dbyz.onrender.com/api/bookings');
         setBooked(res.data);
 
        }

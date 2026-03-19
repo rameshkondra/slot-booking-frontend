@@ -35,7 +35,7 @@ const BookSlot = () => {
 
         const getSeatsData= async()=>{
 
-            const data = await axios.get('http://localhost:5000/api/seats');
+            const data = await axios.get('https://slot-booking-backend-dbyz.onrender.com/api/seats');
             setSeats(data.data);
 
         }

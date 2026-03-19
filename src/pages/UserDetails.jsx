@@ -29,7 +29,7 @@ const UserDetails = () => {
         //     seats:selectedSeats
         // }
 
-        const res = await axios.post('http://localhost:5000/api/book-seats',{
+        const res = await axios.post('https://slot-booking-backend-dbyz.onrender.com/api/book-seats',{
             name,
             email,
             seats: selectedSeats,
